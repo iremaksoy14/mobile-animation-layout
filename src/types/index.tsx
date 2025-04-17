@@ -1,3 +1,4 @@
+import type { JSX } from "react";
 export interface TabItem {
   id: string;
   label: string;
@@ -5,5 +6,5 @@ export interface TabItem {
   title: string;
   description: string;
   image: string;
-  icon: (isActive: boolean) => React.ReactNode;
+  icon: (isActive: boolean) => JSX.Element;
 }
