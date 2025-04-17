@@ -80,7 +80,7 @@ const FeatureSlider: React.FC = () => {
                       initial={{ opacity: 0, y: 50 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 50 }}
-                      transition={{ duration: 0.2, delay: 1 }}
+                      transition={{ duration: 0.5, delay: 1 }}
                     />
                     <motion.img
                       src="/images/file2.png"
@@ -93,7 +93,7 @@ const FeatureSlider: React.FC = () => {
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 50 }}
-                      transition={{ duration: 0.2, delay: 1.25 }}
+                      transition={{ duration: 0.5, delay: 1.5 }}
                     />
                     <motion.img
                       src="/images/file3.png"
@@ -102,7 +102,7 @@ const FeatureSlider: React.FC = () => {
                       initial={{ opacity: 0, y: 40 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 50 }}
-                      transition={{ duration: 0.2, delay: 1.5 }}
+                      transition={{ duration: 0.5, delay: 2 }}
                     />
                   </>
                 )}
